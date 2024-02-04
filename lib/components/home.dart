@@ -17,11 +17,15 @@ class _HomeAppState extends State<HomeApp> {
         title: const Text(
           'ACTUALITES ELECTORALES',
           style: TextStyle(
-            fontSize: 18
+            fontSize: 17,
+            color: Color.fromRGBO(1, 71, 3, 0.757),
+            fontWeight: FontWeight.bold
           ),
         ),
-        actions: const [
-          Icon(Icons.notifications_none_outlined)
+        elevation: 3,
+        shadowColor: Colors.white,
+        actions: [
+          IconButton(onPressed: (){}, icon: const Icon(Icons.notifications_active_outlined)),
         ],
       ),
       body: const BottomNav(),
