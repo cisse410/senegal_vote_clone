@@ -1,16 +1,11 @@
 # senegal_vote
 
-A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Dans le but de mettre en pratique le peu de notions que j'ai eu à apprendre sur flutter, je me suis lancé comme défi d'essayer de cloner l'application de Sénégal vote.
+Une application que vous pouvez télécharger sur les stores (apple et google)
+- For android users, follow this link: https://play.google.com/store/apps/details?id=net.daktic.snvote2024&pli=1
+- For iOS users, follow this link: https://apps.apple.com/fr/app/senegal-vote/id6475657855
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
