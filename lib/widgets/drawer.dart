@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class MyDrawer extends StatelessWidget {
-  const MyDrawer({super.key});
+class AppDrawer extends StatelessWidget {
+  const AppDrawer({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
         children: [
-          const DrawerHeader(child: FlutterLogo()),
+          const DrawerHeader(
+              child: Image(
+            image: AssetImage("assets/images/logo-sv.png"),
+          )),
           const ListTile(
             title: Text('Signaler un incident'),
             leading: Icon(Icons.warning_amber_rounded),
@@ -17,7 +20,7 @@ class MyDrawer extends StatelessWidget {
           ),
           const ListTile(
             title: Text('Devenir volontaire'),
-            leading: Icon(Icons.warning_amber_rounded),
+            leading: Icon(Icons.payment_outlined),
             trailing: Icon(Icons.arrow_forward_ios_outlined),
           ),
           const ListTile(
@@ -48,17 +51,26 @@ class MyDrawer extends StatelessWidget {
             children: [
               IconButton(
                 onPressed: () {},
-                icon: const Icon(FontAwesomeIcons.twitter),
+                icon: const Icon(
+                  FontAwesomeIcons.xTwitter,
+                  color: Colors.black,
+                ),
                 iconSize: 50,
               ),
               IconButton(
                 onPressed: () {},
-                icon: const Icon(FontAwesomeIcons.instagram),
+                icon: const Icon(
+                  FontAwesomeIcons.instagram,
+                  color: Colors.pink,
+                ),
                 iconSize: 50,
               ),
               IconButton(
                 onPressed: () {},
-                icon: const Icon(FontAwesomeIcons.facebook),
+                icon: const Icon(
+                  FontAwesomeIcons.facebook,
+                  color: Colors.blue,
+                ),
                 iconSize: 50,
               ),
             ],

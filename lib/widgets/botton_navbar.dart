@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:senegal_vote/pages/actu/actu.dart';
-import 'package:senegal_vote/pages/candidats.dart';
-import 'package:senegal_vote/pages/carte.dart';
-import 'package:senegal_vote/pages/guide.dart';
-import 'package:senegal_vote/pages/resultats.dart';
+import 'package:senegal_vote/pages/candidates/candidats.dart';
+import 'package:senegal_vote/pages/cartes/carte.dart';
+import 'package:senegal_vote/pages/guide/guide.dart';
+import 'package:senegal_vote/pages/resultats/resultats.dart';
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
